@@ -12,7 +12,7 @@ sbtPlugin := true
 
 resolvers += "jgit-repo" at "http://download.eclipse.org/jgit/maven"
 
-addPlugin("com.typesafe.sbt" % "sbt-osgi" % "0.9.2")
+addPlugin("com.typesafe.sbt" % "sbt-osgi" % "0.9.4")
 addPlugin("com.github.gseitz" % "sbt-release" % "1.0.7")
 addPlugin("org.xerial.sbt" % "sbt-sonatype" % "2.0")
 addPlugin("io.crashbox" % "sbt-gpg" % "0.2.0")
