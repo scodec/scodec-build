@@ -18,7 +18,7 @@ addPlugin("org.xerial.sbt" % "sbt-sonatype" % "2.0")
 addPlugin("io.crashbox" % "sbt-gpg" % "0.2.0")
 addPlugin("com.typesafe.sbt" % "sbt-site" % "1.3.1")
 addPlugin("com.typesafe.sbt" % "sbt-ghpages" % "0.6.2")
-addPlugin("com.typesafe" % "sbt-mima-plugin" % "0.1.18")
+addPlugin("com.typesafe" % "sbt-mima-plugin" % "0.6.1")
 addPlugin("pl.project13.scala" % "sbt-jmh" % "0.2.27")
 addPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.7.0")
 
