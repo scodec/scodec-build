@@ -1,4 +1,4 @@
-addSbtPlugin("com.typesafe.sbt" % "sbt-osgi" % "0.9.2")
+addSbtPlugin("com.typesafe.sbt" % "sbt-osgi" % "0.9.5")
 addSbtPlugin("com.github.gseitz" % "sbt-release" % "1.0.11")
 addSbtPlugin("io.crashbox" % "sbt-gpg" % "0.2.0")
 addSbtPlugin("com.typesafe.sbt" % "sbt-site" % "1.3.1")
