@@ -12,15 +12,15 @@ sbtPlugin := true
 
 resolvers += "jgit-repo" at "http://download.eclipse.org/jgit/maven"
 
-addPlugin("com.typesafe.sbt" % "sbt-osgi" % "0.9.2")
-addPlugin("com.github.gseitz" % "sbt-release" % "1.0.7")
-addPlugin("org.xerial.sbt" % "sbt-sonatype" % "2.6")
+addPlugin("com.typesafe.sbt" % "sbt-osgi" % "0.9.5")
+addPlugin("com.github.gseitz" % "sbt-release" % "1.0.11")
+addPlugin("org.xerial.sbt" % "sbt-sonatype" % "2.0")
 addPlugin("io.crashbox" % "sbt-gpg" % "0.2.0")
 addPlugin("com.typesafe.sbt" % "sbt-site" % "1.3.1")
-addPlugin("com.typesafe.sbt" % "sbt-ghpages" % "0.6.2")
+addPlugin("com.typesafe.sbt" % "sbt-ghpages" % "0.6.3")
 addPlugin("com.typesafe" % "sbt-mima-plugin" % "0.1.18")
 addPlugin("pl.project13.scala" % "sbt-jmh" % "0.2.27")
-addPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.7.0")
+addPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.9.0")
 
 // https://github.com/sbt/sbt/pull/3397
 def addPlugin(plugin: ModuleID) = {
