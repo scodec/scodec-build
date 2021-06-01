@@ -19,7 +19,7 @@ addPlugin("io.crashbox" % "sbt-gpg" % "0.2.1")
 addPlugin("com.typesafe.sbt" % "sbt-site" % "1.3.3")
 addPlugin("com.typesafe.sbt" % "sbt-ghpages" % "0.6.3")
 addPlugin("com.typesafe" % "sbt-mima-plugin" % "0.6.1")
-addPlugin("pl.project13.scala" % "sbt-jmh" % "0.3.7")
+addPlugin("pl.project13.scala" % "sbt-jmh" % "0.4.3")
 addPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.9.0")
 
 // https://github.com/sbt/sbt/pull/3397
